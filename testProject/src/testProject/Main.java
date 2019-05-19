@@ -10,14 +10,21 @@ public class Main {
         
         System.out.println("test Class");
 
-        List<String> firstNames = new ArrayList<String>();
+        List<String> sentenceFirst = new ArrayList<String>();
         
-        firstNames.add("Hello");
-        firstNames.add("Beautiful");
-        firstNames.add("World!");
+        sentenceFirst.add("Hello");
+        sentenceFirst.add("Beautiful");
+        sentenceFirst.add("World!");
         
-        System.out.println(firstNames);
+        System.out.println(sentenceFirst);
         
+        List<String> sentenceSecond = new ArrayList<String>(); 
+        
+        sentenceSecond.add("Something");
+        sentenceSecond.add("To");
+        sentenceSecond.add("Test");
+        
+        System.out.println(sentenceSecond);
     }
 
 }
