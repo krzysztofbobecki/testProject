@@ -25,6 +25,7 @@ public class Main {
         sentenceSecond.add("Test");
         
         System.out.println(sentenceSecond);
+        
     }
 
 }
